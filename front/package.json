@@ -1,0 +1,15 @@
+{
+  "name": "my-app",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "isomorphic-ws": "^5.0.0",
+    "meteor-sdk": "^0.0.21",
+    "nuxt": "^3.7.1",
+    "ws": "^8.13.0"
+  }
+}
