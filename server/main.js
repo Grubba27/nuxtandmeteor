@@ -1,3 +1,4 @@
+import '/imports/api/books';
 import '/imports/api/example';
 import { Meteor } from 'meteor/meteor'
 import { LinksCollection } from '/imports/api/links'

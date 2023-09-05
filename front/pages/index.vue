@@ -2,6 +2,7 @@
   <h1>Hello world! and open your terminal</h1>
   <button @click="hello">Say hello</button>
   <button @click="clickForPong">Say pong</button>
+  <button @click="clickForAoba">Say aoba!</button>
 
 </template>
 
@@ -26,6 +27,10 @@ function hello() {
 
 async function clickForPong() {
   const pong = await server.call('Example.ping')
+  console.log(pong)
+}
+async function clickForAoba() {
+  const pong = await server.call('Books.aoba')
   console.log(pong)
 }
 onMounted(() => {
